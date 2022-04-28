@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		8D6EB33228191470004F69BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB33128191470004F69BC /* AppDelegate.swift */; };
 		8D6EB33428191470004F69BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB33328191470004F69BC /* SceneDelegate.swift */; };
-		8D6EB33628191470004F69BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB33528191470004F69BC /* ViewController.swift */; };
+		8D6EB33628191470004F69BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB33528191470004F69BC /* HomeViewController.swift */; };
 		8D6EB33928191470004F69BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6EB33728191470004F69BC /* Main.storyboard */; };
 		8D6EB33B28191471004F69BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6EB33A28191471004F69BC /* Assets.xcassets */; };
 		8D6EB33E28191471004F69BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6EB33C28191471004F69BC /* LaunchScreen.storyboard */; };
+		8D6EB34828193259004F69BC /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB34728193259004F69BC /* DateViewController.swift */; };
+		8D6EB34A2819351D004F69BC /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB3492819351D004F69BC /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D6EB32E28191470004F69BC /* PLANNIE (Nano Challenge 1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PLANNIE (Nano Challenge 1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6EB33128191470004F69BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6EB33328191470004F69BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D6EB33528191470004F69BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D6EB33528191470004F69BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8D6EB33828191470004F69BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D6EB33A28191471004F69BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D6EB33D28191471004F69BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D6EB33F28191471004F69BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6EB34728193259004F69BC /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		8D6EB3492819351D004F69BC /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				8D6EB33128191470004F69BC /* AppDelegate.swift */,
 				8D6EB33328191470004F69BC /* SceneDelegate.swift */,
-				8D6EB33528191470004F69BC /* ViewController.swift */,
+				8D6EB33528191470004F69BC /* HomeViewController.swift */,
+				8D6EB34728193259004F69BC /* DateViewController.swift */,
+				8D6EB3492819351D004F69BC /* AddTaskViewController.swift */,
 				8D6EB33728191470004F69BC /* Main.storyboard */,
 				8D6EB33A28191471004F69BC /* Assets.xcassets */,
 				8D6EB33C28191471004F69BC /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6EB33628191470004F69BC /* ViewController.swift in Sources */,
+				8D6EB34828193259004F69BC /* DateViewController.swift in Sources */,
+				8D6EB33628191470004F69BC /* HomeViewController.swift in Sources */,
 				8D6EB33228191470004F69BC /* AppDelegate.swift in Sources */,
 				8D6EB33428191470004F69BC /* SceneDelegate.swift in Sources */,
+				8D6EB34A2819351D004F69BC /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38MSJK7F45;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PLANNIE (Nano Challenge 1)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38MSJK7F45;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PLANNIE (Nano Challenge 1)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
