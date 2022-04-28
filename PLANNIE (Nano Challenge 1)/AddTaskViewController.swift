@@ -50,7 +50,7 @@ class AddTaskViewController: UIViewController {
         endTimeButton.textColor = .black
                     
         let timePicker1 = UIDatePicker()
-        timePicker1.datePickerMode = .date
+        timePicker1.datePickerMode = .time
         timePicker1.addTarget(self, action: #selector(timePickerValueChanged1(sender:)), for: UIControl.Event.valueChanged)
         timePicker1.frame.size = CGSize(width: 0, height: 250)
         endTimeButton.inputView = timePicker1
