@@ -131,8 +131,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sU-k6-q2T">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="147"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create New Task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArH-9X-GtO">
-                                        <rect key="frame" x="35" y="87" width="252" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create New Activity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArH-9X-GtO">
+                                        <rect key="frame" x="35" y="87" width="323" height="36"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                         <color key="textColor" red="0.97647058959999999" green="0.87058818339999999" blue="0.44705885649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="highlightedColor" red="0.05882352591" green="0.1647058874" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -154,6 +154,7 @@
                                     <constraint firstAttribute="trailing" secondItem="KiU-19-PfQ" secondAttribute="trailing" constant="322.67000000000002" id="7cK-D6-BXd"/>
                                     <constraint firstAttribute="bottom" secondItem="ArH-9X-GtO" secondAttribute="bottom" constant="24" id="8zV-al-MAY"/>
                                     <constraint firstAttribute="trailing" secondItem="ArH-9X-GtO" secondAttribute="trailing" constant="103" id="CIj-wP-d2U"/>
+                                    <constraint firstAttribute="trailing" secondItem="ArH-9X-GtO" secondAttribute="trailing" constant="32" id="RMR-Bf-AjV"/>
                                     <constraint firstItem="ArH-9X-GtO" firstAttribute="leading" secondItem="0sU-k6-q2T" secondAttribute="leading" constant="35" id="UbN-rR-las"/>
                                     <constraint firstItem="KiU-19-PfQ" firstAttribute="top" secondItem="0sU-k6-q2T" secondAttribute="top" constant="48" id="ZYG-oa-grd"/>
                                     <constraint firstItem="KiU-19-PfQ" firstAttribute="leading" secondItem="0sU-k6-q2T" secondAttribute="leading" constant="22" id="jcu-zq-HO2"/>
