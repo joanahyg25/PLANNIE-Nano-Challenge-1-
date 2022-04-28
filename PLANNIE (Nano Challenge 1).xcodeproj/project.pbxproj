@@ -15,6 +15,8 @@
 		8D6EB33E28191471004F69BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6EB33C28191471004F69BC /* LaunchScreen.storyboard */; };
 		8D6EB34828193259004F69BC /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB34728193259004F69BC /* DateViewController.swift */; };
 		8D6EB34A2819351D004F69BC /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6EB3492819351D004F69BC /* AddTaskViewController.swift */; };
+		8DAAACC6281AD62800386672 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAACC5281AD62800386672 /* DataTableViewController.swift */; };
+		8DEF1FA1281ABA8800D1C5F0 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF1F9F281ABA8800D1C5F0 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		8D6EB33F28191471004F69BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6EB34728193259004F69BC /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		8D6EB3492819351D004F69BC /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		8DAAACC5281AD62800386672 /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		8DEF1FA0281ABA8800D1C5F0 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		8D6EB32528191470004F69BC = {
 			isa = PBXGroup;
 			children = (
+				8DAAACC5281AD62800386672 /* DataTableViewController.swift */,
 				8D6EB33028191470004F69BC /* PLANNIE (Nano Challenge 1) */,
 				8D6EB32F28191470004F69BC /* Products */,
 			);
@@ -66,6 +71,7 @@
 				8D6EB34728193259004F69BC /* DateViewController.swift */,
 				8D6EB3492819351D004F69BC /* AddTaskViewController.swift */,
 				8D6EB33728191470004F69BC /* Main.storyboard */,
+				8DEF1F9F281ABA8800D1C5F0 /* CoreData.xcdatamodeld */,
 				8D6EB33A28191471004F69BC /* Assets.xcassets */,
 				8D6EB33C28191471004F69BC /* LaunchScreen.storyboard */,
 				8D6EB33F28191471004F69BC /* Info.plist */,
@@ -146,8 +152,10 @@
 			files = (
 				8D6EB34828193259004F69BC /* DateViewController.swift in Sources */,
 				8D6EB33628191470004F69BC /* HomeViewController.swift in Sources */,
+				8DEF1FA1281ABA8800D1C5F0 /* CoreData.xcdatamodeld in Sources */,
 				8D6EB33228191470004F69BC /* AppDelegate.swift in Sources */,
 				8D6EB33428191470004F69BC /* SceneDelegate.swift in Sources */,
+				8DAAACC6281AD62800386672 /* DataTableViewController.swift in Sources */,
 				8D6EB34A2819351D004F69BC /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +374,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DEF1F9F281ABA8800D1C5F0 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DEF1FA0281ABA8800D1C5F0 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 8DEF1FA0281ABA8800D1C5F0 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8D6EB32628191470004F69BC /* Project object */;
 }

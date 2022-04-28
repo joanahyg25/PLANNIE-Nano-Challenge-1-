@@ -8,10 +8,12 @@
 import UIKit
 
 class AddTaskViewController: UIViewController {
-
+    
     @IBAction func backButton(_ sender: Any) {
-    performSegue(withIdentifier: "createToHome", sender: self)
+        dismiss(animated: true)
     }
+    
+    var textFieldValue: String?
     
     // Date Picker //
     @IBOutlet weak var nameTextField: UITextField!
@@ -55,7 +57,6 @@ class AddTaskViewController: UIViewController {
         timePicker1.frame.size = CGSize(width: 0, height: 250)
         endTimeButton.inputView = timePicker1
     }
-    
     // Date Picker //
     func createToolbar() -> UIToolbar {
         // toolbar
@@ -68,7 +69,6 @@ class AddTaskViewController: UIViewController {
         
         return toolbar
     }
-
     func createDatePicker() {
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.datePickerMode = .date
@@ -83,10 +83,7 @@ class AddTaskViewController: UIViewController {
 //        formatter2.dateFormat = "hh:mm a"
         dateTF.text = dateFormatter.string(from: date)
         dateTF.textColor = .black
-        
-
     }
-    
     @objc func donePressed() {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
@@ -127,12 +124,27 @@ class AddTaskViewController: UIViewController {
     
     
     @IBOutlet weak var createButton: UIButton!
-    @IBAction func createButton(_ sender: Any) {
+    @IBAction func createButton(_ sender: Any)
+    {
+//        textFieldValue = nameTextField.text
+//        print(nameTextField.text)
+//        textFieldValue = descTextField.text
+//        print(descTextField.text)
+//        textFieldValue = dateTF.text
+//        print(dateTF.text)
+//        textFieldValue = startTimeButton.text
+//        print(startTimeButton.text)
+//        textFieldValue = endTimeButton.text
+//        print(endTimeButton.text)
+//    }
         defaults.set(nameTextField.text, forKey: "name")
         defaults.set(descTextField.text, forKey: "desc")
         defaults.set(dateTF.text, forKey: "date")
         defaults.set(startTimeButton.text, forKey: "start time")
         print(defaults.string(forKey: "name"))
+        
+        performSegue(withIdentifier: "toHomeViewController", sender: self)
+        
     }
     
     /*
@@ -144,4 +156,5 @@ class AddTaskViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 }
